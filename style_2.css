@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(33, 15, 74);
+    color: white;
+}
+p{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    text-align: center;
+}
+::placeholder{
+    color: white;
+}
+input[type=text]{
+    color: white;
+    width: 14%;
+    margin:0px 15px 0px 15px;
+    border: 1px solid red;
+    height: 50px;
+    border-radius: 25px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+input[type=submit],
+input[type=password],
+input[type=mail]{
+    border: 1px solid red;
+    width: 30%;
+    height: 50px;
+    border-radius: 25px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+input[type=submit]{
+    background-color: red;
+}
+input[type=checkbox]{
+    margin-right: 6px;
+}
+a{
+    text-decoration: none;
+    margin-right: 5px;
+    color: red;
+}
+.fotter p{
+    font-size: 20px;
+}

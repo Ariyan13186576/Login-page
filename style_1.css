@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(33, 15, 74);
+    color: white;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+form{
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+::placeholder{
+    color: white;
+}
+input[type=text],
+input[type=password],
+input[type=submit]{
+    height: 50px;
+    width: 30%;
+    border: 1px solid red;
+    border-radius: 25px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+input[type=submit]{
+    padding: 0px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type=checkbox]{
+    margin-right: 6px;
+}
+input[type=checkbox] a{
+    margin-left: 26px;
+}
+.fotter p{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
